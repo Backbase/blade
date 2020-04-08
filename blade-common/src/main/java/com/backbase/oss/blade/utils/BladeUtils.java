@@ -36,7 +36,7 @@ public class BladeUtils {
      *
      * @param port the port to check for availability
      */
-    @SuppressWarnings("squid:S2093")
+    @SuppressWarnings({"squid:S2093","java:S4818"})
     public static boolean isPortAvailable(int port) {
         if (port < MIN_PORT_NUMBER || port > MAX_PORT_NUMBER) {
             throw new IllegalArgumentException("Invalid start port: " + port);
