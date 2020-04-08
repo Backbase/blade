@@ -32,3 +32,5 @@ tomcat/base/work
 tomcat/base/logs
 tomcat/base/lib
 tomcat/base/webapps
+
+!**/resources/*.war
