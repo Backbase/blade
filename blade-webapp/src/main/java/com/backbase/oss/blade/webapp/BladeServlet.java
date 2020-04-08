@@ -4,20 +4,18 @@ import com.backbase.oss.blade.model.Blade;
 import com.backbase.oss.blade.model.WebApp;
 import com.backbase.oss.blade.tomcat.BladeHost;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.catalina.Container;
-import org.apache.catalina.Host;
-import org.apache.catalina.LifecycleException;
-import org.apache.catalina.loader.WebappLoader;
-import org.apache.catalina.manager.ManagerServlet;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.Map;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import org.apache.catalina.Container;
+import org.apache.catalina.Host;
+import org.apache.catalina.LifecycleException;
+import org.apache.catalina.manager.ManagerServlet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
