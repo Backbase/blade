@@ -50,10 +50,11 @@
         <junit-jupiter.version>5.5.2</junit-jupiter.version>
         <mockito.version>3.2.4</mockito.version>
 
-
+        <jackson-databind.version>2.10.3</jackson-databind.version>
         <aggregate.report.dir>tests/target/site/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
         <sonar.coverage.jacoco.xmlReportPaths>${aggregate.report.dir}</sonar.coverage.jacoco.xmlReportPaths>
         <sonar.coverage.jacoco.itReportPath>${project.basedir}/target/jacoco-it.exec</sonar.coverage.jacoco.itReportPath>
+        <slf4j-api.version>1.7.30</slf4j-api.version>
     </properties>
 
     <distributionManagement>
