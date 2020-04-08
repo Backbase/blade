@@ -9,7 +9,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {SpinnerComponent} from './core/components/spinner/spinner.component';
 import {WebappControlsComponent} from './core/components/webapp-controls/webapp-controls.component';
 import { JvmGraphComponent } from './core/components/jvm-graph/jvm-graph.component';
-import {ChartsModule} from 'ng2-charts/ng2-charts';
+import {ChartsModule} from 'ng2-charts';
 import { BladeGraphsComponent } from './core/components/blade-graphs/blade-graphs.component';
 
 @NgModule({
