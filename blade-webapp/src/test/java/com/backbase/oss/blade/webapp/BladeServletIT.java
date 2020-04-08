@@ -27,7 +27,14 @@ public class BladeServletIT {
     private static Logger logger = LoggerFactory.getLogger(BladeServletIT.class);
     @Test
     public void testBladeServlet() throws IOException, BladeStartException, LifecycleException {
-        Path target = new File("target/blade-webapp-4.2.0-SNAPSHOT").toPath();
+        File[] warFiles = new File("target").listFiles(pathname -> pathname.getName().endsWith(".war"));
+
+        Path target;
+        if(warFiles != null &&  warFiles.length == 1) {
+            target = warFiles[0].toPath();
+        } else {
+            throw new IllegalStateException("no valid war file found. Please run after package");
+        }
 
         WebApp bladeWebApp = new WebApp(target.toFile(), "/blade");
         bladeWebApp.setPrivileged(true);
