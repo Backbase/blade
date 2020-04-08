@@ -1,7 +1,12 @@
-= blade-maven-plugin 
+= blade-maven-plugin
+
+![Java CI](https://github.com/Backbase/blade/workflows/Java%20CI/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=com.backbase.oss%3Ablade&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.backbase.oss%3Abackbase-openapi-tools)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.backbase.oss/blade/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.backbase.oss/blade)
+
 
 The Backbase Local Application Development Environment (Blade) is a convenience plugin to
-run WAR files in an embedded Tomcat container.
+run WAR files in an eAddembedded Tomcat container.
 
 It's specifically tailored to run multiple web applications in a single Tomcat where the startup order is important.
 
