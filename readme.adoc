@@ -7,7 +7,7 @@ image:https://maven-badges.herokuapp.com/maven-central/com.backbase.oss/blade/ba
 
 
 The Backbase Local Application Development Environment (Blade) is a convenience plugin to
-run WAR files in an eAddembedded Tomcat container.
+run WAR files in an embedded Tomcat container.
 
 It's specifically tailored to run multiple web applications in a single Tomcat where the startup order is important.
 

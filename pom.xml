@@ -10,6 +10,15 @@
 
     <name>Blade :: Parent</name>
 
+    <description>
+        The Backbase Local Application Development Environment (Blade) is a convenience plugin to
+        run WAR files in an embedded Tomcat container.
+
+        It's specifically tailored to run multiple web applications in a single Tomcat where the startup order is important.
+
+        All dependencies of type WAR are automatically deployed inside Tomcat. The artifactId of each dependency is used as context path.
+    </description>
+
     <url>https://github.com/Backbase/blade</url>
 
     <developers>
