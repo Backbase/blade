@@ -14,7 +14,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn -B verify sonar:sonar --file pom.xml -Dsonar.projectKey=Backbase_blade -Dsonar.organization=backbase-technology-prototyping -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=a8f8241affc8f3da486aa43b81300ac1f0275fa4
+      run: mvn -B verify sonar:sonar --file pom.xml -Dsonar.projectKey=Backbase_blade -Dsonar.organization=backbase-technology-prototyping -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=578a13fd4faa7d589d02bff4732f3e3ee6cf43c8
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
