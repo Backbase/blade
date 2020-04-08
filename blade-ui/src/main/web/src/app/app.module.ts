@@ -23,7 +23,7 @@ import { BladeGraphsComponent } from './core/components/blade-graphs/blade-graph
     BladeGraphsComponent
   ],
   imports: [
-    NgbModule.forRoot(),
+    NgbModule,
     BrowserModule,
     HttpClientModule,
     ChartsModule
