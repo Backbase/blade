@@ -1,8 +1,9 @@
 = blade-maven-plugin
 
-![Java CI](https://github.com/Backbase/blade/workflows/Java%20CI/badge.svg)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=com.backbase.oss%3Ablade&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.backbase.oss%3Abackbase-openapi-tools)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.backbase.oss/blade/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.backbase.oss/blade)
+image:https://github.com/Backbase/blade/workflows/Java%20CI/badge.svg[Git Hub Actions]
+image:https://sonarcloud.io/api/project_badges/measure?project=Backbase_blade&metric=alert_status["Sonar Cloud", link="https://sonarcloud.io/dashboard?id=Backbase_blade"]
+image:https://maven-badges.herokuapp.com/maven-central/com.backbase.oss/blade/badge.svg["MVN Repository", link="https://maven-badges.herokuapp.com/maven-central/com.backbase.oss/blad"]
+
 
 
 The Backbase Local Application Development Environment (Blade) is a convenience plugin to
