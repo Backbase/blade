@@ -1,0 +1,27 @@
+.navbar {
+	padding: 0;
+	height: 100px;
+	border-bottom: 1px solid $blue-grey;
+}
+
+.navbar-brand {
+	padding: 0;
+	margin-right: 0;
+
+	.navbar-brand-spacer {
+		margin: 0 6px 0 8px;
+	}
+
+	.navbar-brand-text {
+		font-size: 1.6rem;
+	}
+}
+
+.nav-item {
+	font-size: 1rem;
+	margin-right: 40px;
+	
+	&.dropdown {
+		cursor: pointer;
+	}
+}

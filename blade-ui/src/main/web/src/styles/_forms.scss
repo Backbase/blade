@@ -1,0 +1,87 @@
+.start-bb-form {
+  padding: 60px 0 0 0;
+  label, p.label {
+    font-weight: 500;
+  }
+
+  // invalid handling
+  input[type=submit].disabled,
+  &.ng-invalid input[type=submit] {
+    pointer-events: none;
+    opacity: 0.8;
+  }
+  .form-control.ng-invalid {
+    border-color: $primary-red;
+  }
+
+  .btn {
+    font-size: 14px;
+    input[type=radio], input[type=checkbox]{
+      position: absolute;
+      clip: rect(0,0,0,0);
+      pointer-events: none;
+    }
+
+    &.focus {
+      box-shadow: none;
+    }
+
+    &.btn-option {
+      &.btn-radio-option {
+        &.active {
+          color: $primary-blue;
+          i[class^="icon-"] {
+            background-color: white;
+          }
+        }
+      }
+      &.btn-checkbox-option {
+        padding: 0;
+        position: relative;
+        &.active {
+          border: 2px solid $primary-blue;
+          color: $primary-blue;
+          .icon-check {
+            background-color: $primary-blue;
+            opacity: 1;
+          }
+          .icon i[class^="icon-"] {
+            background-color: $primary-blue;
+          }
+        }
+      }
+    }
+    .icon-check {
+      display: block;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      background-color: $grey;
+      opacity: 0.15;
+    }
+    .icon {
+      margin: 0 auto;
+      i[class^="icon-"] {
+        background-color: $grey;
+      }
+    }
+  }
+  .checkbox-option-top-container {
+    padding: 50px 0;
+  }
+  .checkbox-option-bottom-container {
+    border-top: 1px solid $blue-grey;
+    background-color: $white;
+    padding: 10px;
+    border-radius: 4px;
+    p {
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+  .generator-footer {
+    padding: 20px 0;
+  }
+}

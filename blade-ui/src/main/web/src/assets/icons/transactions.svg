@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Svgs/transactions/grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.84164223,11.6832845 L0,5.84164223 L5.84164223,1.77635684e-15 L5.84164223,4.39882698 L23.1202346,4.39882698 L23.1202346,7.28445748 L5.84164223,7.28445748 L5.84164223,11.6832845 Z M18.1583578,16.7155425 L18.1583578,12.3167155 L24,18.1583578 L18.1583578,24 L18.1583578,19.601173 L0.879765396,19.601173 L0.879765396,16.7155425 L18.1583578,16.7155425 Z" id="path-1"></path>
+    </defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Styleguide---Base" transform="translate(-278.000000, -3925.000000)">
+            <g id="BB/Base/Icons/transactions/grey" transform="translate(278.000000, 3925.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#737373" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

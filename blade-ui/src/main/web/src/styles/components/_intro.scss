@@ -1,0 +1,13 @@
+.generator-form-header:not(.landingspage) {
+	background-color: $primary-blue;
+	color: white;
+	height: 200px;
+
+	.heading-text {
+		display: flex;
+	}
+
+	.intro-text {
+		text-align: center;
+	}
+}

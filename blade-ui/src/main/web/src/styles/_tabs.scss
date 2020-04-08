@@ -1,0 +1,32 @@
+
+.tabs {
+  padding: 0;
+  margin: 40px 0;
+
+  > .tab {
+    &.active {
+      border-bottom: 2px solid $primary-blue;
+      a { 
+        color: $primary-blue;
+      }
+    }
+
+    > a {
+      display: inline-block;
+      padding: 10px 10px;
+      color: $grey;
+
+      &:hover { text-decoration: none; }  
+    }
+  }
+}
+
+.tab-panels {
+  > .tab-panel { 
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}

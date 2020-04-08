@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="25px" viewBox="0 0 22 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Svgs/limits/grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Styleguide---Base" transform="translate(-635.000000, -3881.000000)" fill="#737373">
+            <g id="BB/Base/Icons/limits/grey" transform="translate(634.000000, 3881.000000)">
+                <path d="M1.479,0.4125 L22.521,0.4125 L22.521,3.0585 L1.479,3.0585 L1.479,0.4125 Z M6.771,10.9335 L12,5.6415 L17.229,10.9335 L13.2915,10.9335 L13.2915,24.0375 L10.7085,24.0375 L10.7085,10.9335 L6.771,10.9335 Z" id="vertical_align_top---material"></path>
+            </g>
+        </g>
+    </g>
+</svg>

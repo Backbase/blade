@@ -1,0 +1,30 @@
+.app-loading {
+  height: 100vh;
+  text-align: center;
+
+  h4 {
+    font-weight: 200;
+  }
+
+  .brand-title {
+    font-weight: 300;
+    font-size: 28px;
+    color: $blue-grey;
+    line-height: 30px;
+
+    img {
+      display: inline-block;
+      width: 38px;
+      height: 28px;
+      vertical-align: top;
+    }
+
+    span.brand-divider {
+      margin: 0 4px;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 28px;
+      color: $primary-red;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@mixin image-mask($path) {
+  -webkit-mask: url($path) no-repeat center;
+  mask: url($path) no-repeat center;
+  mask-size: contain;
+}
+
+.icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+
+  &.small-icon {
+    height: 30px;
+  }
+
+  > i {
+    height: 100%;
+    display: block;
+  }
+
+  [class*="icon"] {
+    @include image-mask($icon-custom)
+  }
+
+  .icon-cx { @include image-mask($icon-cxp) }
+  .icon-dbs { @include image-mask($icon-dbs) }
+  .icon-forms { @include image-mask($icon-forms) }
+  &.icon-custom { @include image-mask($icon-custom) }
+  &.icon-template { @include image-mask($icon-template) }
+  .icon-product-summary { @include image-mask($icon-product-summary) }
+  .icon-audit { @include image-mask($icon-audit) }
+  .icon-actions { @include image-mask($icon-actions) }
+  .icon-contact-manager { @include image-mask($icon-contacts) }
+  .icon-entitlements { @include image-mask($icon-entitlements) }
+  .icon-limits { @include image-mask($icon-limits) }
+  .icon-message-center { @include image-mask($icon-messages) }
+  .icon-notifications { @include image-mask($icon-notifications) }
+  .icon-transactions { @include image-mask($icon-transactions) }
+  .icon-portfolio-summary { @include image-mask($icon-portfolio) }
+  .icon-payments { @include image-mask($icon-payments) }
+}
+
+.icon-check {
+  -webkit-mask: url($icon-check) no-repeat center;
+  mask: url($icon-check) no-repeat center;
+  mask-size: contain;
+}

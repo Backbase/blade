@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.backbase.start.test</groupId>
+    <artifactId>example-submodules</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <name>Blade :: Example Sub Modules</name>
+
+    <modules>
+        <module>example-dependencies</module>
+        <module>sample-webapp</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.backbase.oss</groupId>
+                <artifactId>blade-maven-plugin</artifactId>
+                <version>@pom.version@</version>
+                <inherited>false</inherited>
+                <configuration>
+                    <port>8080</port>
+                    <name>Example Sub Modules</name>
+                    <openBrowserOnStartup>false</openBrowserOnStartup>
+                    <fork>true</fork>
+                    <stages>
+                        <stage>
+                            <id>Example Stage</id>
+                            <webApps>
+                                <webApp>
+                                    <name>Simple Web App</name>
+                                    <module>example-dependencies</module>
+                                </webApp>
+                            </webApps>
+                        </stage>
+                        <stage>
+                            <id>Build App Stage</id>
+                            <webApps>
+                                <webApp>
+                                    <name>Hello World Web App</name>
+                                    <module>sample-webapp</module>
+                                </webApp>
+                            </webApps>
+                        </stage>
+                    </stages>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

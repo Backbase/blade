@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Svgs/product summary/grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.016,8.016 L20.016,6 L3.984,6 L3.984,8.016 L20.016,8.016 Z M20.016,18 L20.016,12 L3.984,12 L3.984,18 L20.016,18 Z M20.016,3.984 C20.5760028,3.984 21.0439981,4.17999804 21.42,4.572 C21.7960019,4.96400196 21.984,5.4399972 21.984,6 L21.984,18 C21.984,18.5600028 21.7960019,19.035998 21.42,19.428 C21.0439981,19.820002 20.5760028,20.016 20.016,20.016 L3.984,20.016 C3.4239972,20.016 2.95600188,19.820002 2.58,19.428 C2.20399812,19.035998 2.016,18.5600028 2.016,18 L2.016,6 C2.016,5.4399972 2.20399812,4.96400196 2.58,4.572 C2.95600188,4.17999804 3.4239972,3.984 3.984,3.984 L20.016,3.984 Z" id="path-1"></path>
+    </defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Styleguide---Base" transform="translate(-195.000000, -3928.000000)">
+            <g id="BB/Base/Icons/product-summary/grey" transform="translate(193.000000, 3925.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#737373" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

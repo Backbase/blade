@@ -1,0 +1,63 @@
+<app-header></app-header>
+<div class="main-container">
+  <div class="container blade-bg">
+
+    <div class="row">
+      <div class="col-8 d-flex align-items-center">
+        <div class="intro-text">
+          <h1>Welcome to <strong class="highlight">Blade</strong> Trinity</h1>
+          <p>On this page you'll see all registered Blades for your local application environment</p>
+        </div>
+      </div>
+      <div class="col-4 intro-image text-right" >
+        <img src="assets/images/intro-img.png" alt="Intro">
+      </div>
+    </div>
+    <div *ngIf="isLoading">
+      Loading Blades
+    </div>
+
+    <div *ngFor="let blade of blades ; trackBy: trackByBlade">
+      <h3>{{blade.name}}</h3>
+      <div class="table-responsive">
+        <table class="table table-hover table-striped">
+          <caption>Blade Apps</caption>
+          <thead>
+          <tr>
+            <th class="progress-loader" scope="col"></th>
+            <th class="app" scope="col">App</th>
+            <th class="version" scope="col">Version</th>
+            <th class="state" scope="col">State</th>
+            <th class="time" scope="col">Start Up Time</th>
+            <th class="action" scope="col">Action</th>
+          </tr>
+          </thead>
+          <tbody>
+          <ng-container *ngFor="let stage of blade.stages ; trackBy: trackByStage">
+            <tr [ngClass]="tableClass(webApp)" *ngFor="let webApp of stage.webApps trackBy: trackByWebApp">
+              <td class="text-center" style="vertical-align: middle;">
+                <app-spinner [webApp]="webApp"></app-spinner>
+              </td>
+              <td><a href="{{webApp.url? domainPrefix+blade.port+webApp.url : domainPrefix+blade.port+webApp.contextPath}}" target="_blank">{{webApp.name}}</a></td>
+              <td>{{webApp.version}}</td>
+              <td class="state">
+                <span [ngClass]="badgePillClass(webApp)" class="badge badge-pill">{{webApp.state}}</span>
+              </td>
+              <td class="time"><span
+                ng-show="webApp.state === 'STARTED'">{{webApp.startupTime}}ms</span></td>
+              <td>
+                <app-webapp-controls [webApp]="webApp" [blade]="blade"></app-webapp-controls>
+              </td>
+            </tr>
+          </ng-container>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h3>Stats for nerds</h3>
+        <app-blade-graphs [blade]="blade"></app-blade-graphs>
+      </div>
+    </div>
+  </div>
+</div>
+

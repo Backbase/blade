@@ -1,0 +1,34 @@
+######################
+# CX6 ignored files
+######################
+
+**/*.iml
+**/*.ipr
+**/*.iws
+**/*.log
+**/.classpath
+**/.idea/
+**/.project
+**/.settings
+**/target/
+**/*.class
+**/.DS_Store
+data
+
+######################
+# DBS ignored files
+######################
+*~
+.DS_Store
+.idea
+*.iml
+target
+overlays
+node_modules
+
+
+tomcat/base/bin/*.jar
+tomcat/base/work
+tomcat/base/logs
+tomcat/base/lib
+tomcat/base/webapps

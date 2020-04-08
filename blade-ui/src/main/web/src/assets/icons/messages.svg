@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="20px" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Svgs/messages/grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.6346154,7.09615385 L21.6346154,4.67307692 L12,10.7019231 L2.36538462,4.67307692 L2.36538462,7.09615385 L12,13.0673077 L21.6346154,7.09615385 Z M21.6346154,2.25 C22.2884648,2.25 22.8461515,2.49038221 23.3076923,2.97115385 C23.7692331,3.45192548 24,4.0192275 24,4.67307692 L24,19.0961538 C24,19.7500033 23.7692331,20.3173053 23.3076923,20.7980769 C22.8461515,21.2788486 22.2884648,21.5192308 21.6346154,21.5192308 L2.36538462,21.5192308 C1.71153519,21.5192308 1.15384846,21.2788486 0.692307692,20.7980769 C0.230766923,20.3173053 0,19.7500033 0,19.0961538 L0,4.67307692 C0,4.0192275 0.230766923,3.45192548 0.692307692,2.97115385 C1.15384846,2.49038221 1.71153519,2.25 2.36538462,2.25 L21.6346154,2.25 Z" id="path-1"></path>
+    </defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Styleguide---Base" transform="translate(-679.000000, -3883.000000)">
+            <g id="BB/Base/Icons/messages/grey" transform="translate(679.000000, 3881.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#737373" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
