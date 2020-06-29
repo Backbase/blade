@@ -2,7 +2,7 @@
 
 image:https://github.com/Backbase/blade/workflows/Java%20CI/badge.svg[Git Hub Actions]
 image:https://sonarcloud.io/api/project_badges/measure?project=Backbase_blade&metric=alert_status["Sonar Cloud", link="https://sonarcloud.io/dashboard?id=Backbase_blade"]
-image:https://maven-badges.herokuapp.com/maven-central/com.backbase.oss/blade/badge.svg["MVN Repository", link="https://maven-badges.herokuapp.com/maven-central/com.backbase.oss/blad"]
+image:https://maven-badges.herokuapp.com/maven-central/com.backbase.oss/blade/badge.svg["MVN Repository", link="https://maven-badges.herokuapp.com/maven-central/com.backbase.oss/blade"]
 
 
 
