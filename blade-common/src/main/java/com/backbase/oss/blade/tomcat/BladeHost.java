@@ -155,11 +155,17 @@ public class BladeHost extends StandardHost {
                 throw new BladeStartException(FAILED_TO_START_WEB_APP + webApp.getName(), e);
             }
 
-            if (start) {
+            if (start || webApp.getName().startsWith("blade-webapp") || webApp.getName().startsWith("jolokia-war")) {
                 try {
                     ctx.start();
                 } catch (LifecycleException e) {
                     throw new BladeStartException(FAILED_TO_START_WEB_APP + webApp.getName(), e);
+                }
+            }else{
+                try {
+                    ctx.stop();
+                } catch (LifecycleException e) {
+                    e.printStackTrace();
                 }
             }
             long time = System.currentTimeMillis() - startTime;

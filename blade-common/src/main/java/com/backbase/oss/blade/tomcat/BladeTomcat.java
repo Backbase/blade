@@ -152,9 +152,10 @@ public class BladeTomcat extends Tomcat {
 
     public void autoStartStages() throws BladeStartException {
         for (Stage stage : blade.getStages()) {
-            if (stage.isAutoStart()) {
+            getHost().deploy(stage, classLoader);
+            /*if (stage.isAutoStart()) {
                 getHost().deploy(stage, classLoader);
-            }
+            }*/
         }
         updateStatus();
     }
